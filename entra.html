@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Bloco de notas</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+	<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js">
+
+	</script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body>
+	<ion-app>
+		<ion-grid>
+			<ion-row>
+				<ion-col>
+							<img src="123.png"></img>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+		<ion-grid class="morango">
+			<ion-row class="morango ion-align-items-center">
+				<ion-col>
+					<ion-item>
+						<ion-label position="floating">E-mail</ion-label>
+						<ion-input type="email" placeholder="ex: julia@gmail.com"></ion-input>
+					</ion-item>
+					<ion-item>
+						<ion-label position="floating">Senha</ion-label>
+						<ion-input type="password"></ion-input>
+					</ion-item>
+					<ion-button color="tertiary" class="ion-margin-top" type="submit" href="index.html" expand="block">Entrar</ion-button>
+					<ion-button color="secondary" class="ion-margin-top" type="submit" href="cadastro.html" expand="block">Cadastre-se</ion-button>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-app>
+	<script src="script.js">
+
+	</script>
+</body>
+
+</html>
