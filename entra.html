@@ -15,29 +15,26 @@
 
 <body>
 	<ion-app>
-		<ion-grid>
-			<ion-row>
-				<ion-col>
-							<img src="123.png"></img>
-				</ion-col>
-			</ion-row>
-		</ion-grid>
-		<ion-grid class="morango">
-			<ion-row class="morango ion-align-items-center">
-				<ion-col>
-					<ion-item>
-						<ion-label position="floating">E-mail</ion-label>
-						<ion-input type="email" placeholder="ex: julia@gmail.com"></ion-input>
-					</ion-item>
-					<ion-item>
-						<ion-label position="floating">Senha</ion-label>
-						<ion-input type="password"></ion-input>
-					</ion-item>
-					<ion-button color="tertiary" class="ion-margin-top" type="submit" href="index.html" expand="block">Entrar</ion-button>
-					<ion-button color="secondary" class="ion-margin-top" type="submit" href="cadastro.html" expand="block">Cadastre-se</ion-button>
-				</ion-col>
-			</ion-row>
-		</ion-grid>
+		<ion-content>
+			<ion-grid class="morango">
+				<ion-row class="morango ion-align-items-center">
+          <ion-text class="acerola">O seu bloco de notas favorito!</ion-text>
+					<img src="01.png" class="laranja"></img>
+          <ion-col>
+            <ion-item>
+              <ion-label position="floating">E-mail</ion-label>
+              <ion-input type="email" placeholder="ex: julia@gmail.com"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Senha</ion-label>
+              <ion-input type="password"></ion-input>
+            </ion-item>
+            <ion-button color="tertiary" class="ion-margin-top" type="submit" href="index.html" expand="block">Entrar</ion-button>
+            <ion-button color="secondary" class="ion-margin-top" type="submit" href="cadastro.html" expand="block">Cadastre-se</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-content>
 	</ion-app>
 	<script src="script.js">
 

@@ -9,5 +9,18 @@
 }
 
 .laranja{
-  height: 100%;
+  padding-left: 10%;
+}
+
+.uva{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 200%;
+}
+
+.acerola{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20%;
+  font-size: 150%;
 }

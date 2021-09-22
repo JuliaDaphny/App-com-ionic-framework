@@ -15,138 +15,138 @@
 
 <body>
 	<ion-app>
+		<ion-content>
+			<ion-grid>
+				<ion-row>
+					<ion-menu side="end" content-id="x">
+						<ion-header>
+							<ion-toolbar>
+								<ion-title>Menu</ion-title>
+							</ion-toolbar>
+						</ion-header>
+						<ion-col class="ion-margin-top">
+							<ion-button expand="block" color="secondary" href="entra.html">Login</ion-button>
+							<ion-button expand="block" color="secondary" href="cadastro.html">Cadastro</ion-button>
+							<ion-button expand="block" color="secondary" href="entra.html">Sair</ion-button>
+						</ion-col>
+					</ion-menu>
+				</ion-row>
+			</ion-grid>
 
-		<ion-grid>
-			<ion-row>
-				<ion-menu side="end" content-id="x">
-					<ion-header>
-						<ion-toolbar>
-							<ion-title>Menu</ion-title>
-						</ion-toolbar>
-					</ion-header>
-					<ion-col class="ion-margin-top">
-						<ion-button expand="block" color="secondary" href="entra.html">Login</ion-button>
-						<ion-button expand="block" color="secondary" href="cadastro.html">Cadastro</ion-button>
-						<ion-button expand="block" color="secondary" href="index.html">Lista</ion-button>
+			<ion-header>
+				<ion-toolbar color="light">
+					<ion-buttons slot="end">
+						<ion-menu-button auto-hide="false" id="x" type="submit" ex class="ion-margin-top">
+							<ion-icon name="ellipsis-vertical"></ion-icon>
+						</ion-menu-button>
+					</ion-buttons>
+					<ion-title> Bloco de notas </ion-title>
+				</ion-toolbar>
+			</ion-header>
+
+			<ion-grid class="melancia">
+				<ion-row>
+					<ion-col>
+						<ion-item color="tertiary" class="melancia">
+							<ion-label position="floating">No que você esta pensando?</ion-label>
+							<ion-input type="text" placeholder="Estava com saudade"></ion-input>
+						</ion-item>
 					</ion-col>
-				</ion-menu>
-			</ion-row>
-		</ion-grid>
+				</ion-row>
 
-		<ion-header>
-			<ion-toolbar color="light">
-				<ion-buttons slot="end">
-					<ion-menu-button auto-hide="false" id="x" type="submit" ex class="ion-margin-top">
-						<ion-icon name="ellipsis-vertical"></ion-icon>
-					</ion-menu-button>
-				</ion-buttons>
-				<ion-title> Bloco de notas </ion-title>
+				<ion-row>
+					<ion-col>
+						<ion-item color="tertiary" class="melancia">
+							<ion-label position="floating">Alguma ideia nova?</ion-label>
+							<ion-input type="text" placeholder="Vou guardar todas as suas ideias"></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col>
+						<ion-item color="tertiary" class="melancia">
+							<ion-label position="floating">Escreva alguma coisa...</ion-label>
+							<ion-input type="text" placeholder="Você está de volta!"></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col>
+						<ion-item color="tertiary" class="melancia">
+							<ion-label position="floating">Escreva alguma coisa...</ion-label>
+							<ion-input type="text" placeholder="Fez a lista do mercado?"></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col>
+						<ion-item color="tertiary" class="melancia">
+							<ion-label position="floating">Escreva alguma coisa...</ion-label>
+							<ion-input type="text" placeholder="Pensei que tivesse esquecido de mim"></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col>
+						<ion-item color="tertiary" class="melancia">
+							<ion-label position="floating">Anota pra não esquecer!</ion-label>
+							<ion-input type="text" placeholder="Vamos que eu te ajudo"></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col>
+						<ion-item color="tertiary" class="melancia">
+							<ion-label position="floating">Já fez sua anotação do dia?!</ion-label>
+							<ion-input type="text" placeholder="Estamos aqui para te ajudar"></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col>
+						<ion-item color="secondary">
+							<ion-label position="floating">Notas</ion-label>
+							<ion-input type="text" placeholder="..."></ion-input>
+						</ion-item>
+					</ion-col>
+					<ion-col>
+						<ion-item color="secondary">
+							<ion-label position="floating">Notas</ion-label>
+							<ion-input type="text" placeholder="..."></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+
+				<ion-row>
+					<ion-col>
+						<ion-item color="secondary">
+							<ion-label position="floating">Notas</ion-label>
+							<ion-input type="text" placeholder="..."></ion-input>
+						</ion-item>
+					</ion-col>
+					<ion-col>
+						<ion-item color="secondary">
+							<ion-label position="floating">Notas</ion-label>
+							<ion-input type="text" placeholder="..."></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+			</ion-grid>
+			<ion-menu-controller></ion-menu-controller>
+		</ion-content>
+		<ion-footer>
+			<ion-toolbar>
+				<ion-item>
+					<ion-input clear-input value="Anotações rápidas"></ion-input>
+				</ion-item>
 			</ion-toolbar>
-		</ion-header>
-
-		<ion-grid class="melancia">
-			<ion-row>
-				<ion-col>
-					<ion-item color="tertiary" class="melancia">
-						<ion-label position="floating">No que você esta pensando?</ion-label>
-						<ion-input type="text" placeholder="Estava com saudade"></ion-input>
-					</ion-item>
-				</ion-col>
-			</ion-row>
-
-			<ion-row>
-				<ion-col>
-					<ion-item color="tertiary" class="melancia">
-						<ion-label position="floating">Alguma ideia nova?</ion-label>
-						<ion-input type="text" placeholder="Vou guardar todas as suas ideias"></ion-input>
-					</ion-item>
-				</ion-col>
-			</ion-row>
-
-			<ion-row>
-				<ion-col>
-					<ion-item color="tertiary" class="melancia">
-						<ion-label position="floating">Escreva alguma coisa...</ion-label>
-						<ion-input type="text" placeholder="Você está de volta!"></ion-input>
-					</ion-item>
-				</ion-col>
-			</ion-row>
-
-			<ion-row>
-				<ion-col>
-					<ion-item color="tertiary" class="melancia">
-						<ion-label position="floating">Escreva alguma coisa...</ion-label>
-						<ion-input type="text" placeholder="Fez a lista do mercado?"></ion-input>
-					</ion-item>
-				</ion-col>
-			</ion-row>
-
-			<ion-row>
-				<ion-col>
-					<ion-item color="tertiary" class="melancia">
-						<ion-label position="floating">Escreva alguma coisa...</ion-label>
-						<ion-input type="text" placeholder="Pensei que tivesse esquecido de mim"></ion-input>
-					</ion-item>
-				</ion-col>
-			</ion-row>
-
-			<ion-row>
-				<ion-col>
-					<ion-item color="tertiary" class="melancia">
-						<ion-label position="floating">Anota pra não esquecer!</ion-label>
-						<ion-input type="text" placeholder="Vamos que eu te ajudo"></ion-input>
-					</ion-item>
-				</ion-col>
-			</ion-row>
-
-			<ion-row>
-				<ion-col>
-					<ion-item color="tertiary" class="melancia">
-						<ion-label position="floating">Já fez sua anotação do dia?!</ion-label>
-						<ion-input type="text" placeholder="Estamos aqui para te ajudar"></ion-input>
-					</ion-item>
-				</ion-col>
-			</ion-row>
-
-			<ion-row>
-				<ion-col>
-					<ion-item color="secondary">
-						<ion-label position="floating">Notas</ion-label>
-						<ion-input type="text" placeholder="..."></ion-input>
-					</ion-item>
-				</ion-col>
-				<ion-col>
-					<ion-item color="secondary">
-						<ion-label position="floating">Notas</ion-label>
-						<ion-input type="text" placeholder="..."></ion-input>
-					</ion-item>
-				</ion-col>
-			</ion-row>
-
-			<ion-row>
-				<ion-col>
-					<ion-item color="secondary">
-						<ion-label position="floating">Notas</ion-label>
-						<ion-input type="text" placeholder="..."></ion-input>
-					</ion-item>
-				</ion-col>
-				<ion-col>
-					<ion-item color="secondary">
-						<ion-label position="floating">Notas</ion-label>
-						<ion-input type="text" placeholder="..."></ion-input>
-					</ion-item>
-				</ion-col>
-			</ion-row>
-		</ion-grid>
-
-		<ion-item>
-			<ion-input clear-input value="Anotações rápidas"></ion-input>
-		</ion-item>
-		<ion-item>
-			<ion-input clear-input value="Anotações rápidas"></ion-input>
-		</ion-item>
-
-		<ion-menu-controller></ion-menu-controller>
+		</ion-footer>
 	</ion-app>
 	<script src="script.js">
 
